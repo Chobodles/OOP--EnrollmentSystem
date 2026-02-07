@@ -19,22 +19,6 @@ public class Main {
         c.setCourseName("Integrative Programming");
         c.setProgram("Information Technology");
 
-        System.out.println(s1.getStudentID());
-        System.out.println(s1.getStudentName());
-        System.out.println(s1.getProgram());
-        System.out.println();
-
-        System.out.println(s2.getStudentID());
-        System.out.println(s2.getStudentName());
-        System.out.println(s2.getProgram());
-        System.out.println();
-
-        System.out.println(c.getCourseID());
-        System.out.println(c.getCourseName());
-        System.out.println(c.getProgram());
-        System.out.println();
-
-
         s1.display();
 
         s2.display();
