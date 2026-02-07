@@ -34,5 +34,11 @@ public class Main {
         System.out.println(c.getProgram());
         System.out.println();
 
+
+        s1.display();
+
+        s2.display();
+
+        c.display();
     }
 }
