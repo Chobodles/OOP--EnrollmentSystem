@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 public class Student {
     private String studentID;
@@ -6,6 +6,12 @@ public class Student {
     private String program;
 
     public Student(){}
+
+    public Student(String studentID, String studentName, String program) {
+        this.studentID = studentID;
+        this.studentName = studentName;
+        this.program = program;
+    }
 
     public String getStudentID() {
         return studentID;
