@@ -1,7 +1,6 @@
 package org.example.model;
 
 public class Student extends Person {
-
     private String program;
 
     public Student(){}
@@ -19,7 +18,6 @@ public class Student extends Person {
     public void setProgram(String program) {
         this.program = program;
     }
-
 
     public void display(){
         System.out.println("Student ID: " + super.getID());

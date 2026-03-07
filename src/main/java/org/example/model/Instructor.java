@@ -12,5 +12,4 @@ public class Instructor extends Person{
     public void setProgram(String course){
        this.course = course;
     }
-
 }
