@@ -4,7 +4,6 @@ import org.example.model.Student;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 public class StudentRegistration {
     private Scanner scanner = new Scanner(System.in);
     private ArrayList<Student> studentList = new ArrayList<>();
@@ -17,7 +16,6 @@ public class StudentRegistration {
         for (int i = 0; i < studentList.size(); i++){
             studentList.get(i).display();
         }
-//        System.out.println(student.display());
     }
 
     public void updateStudent(Student student){
@@ -28,7 +26,6 @@ public class StudentRegistration {
 
                 System.out.println("Enter Program: ");
                 String program = scanner.nextLine();
-
                 studentList.set(i, new Student(student.getID(), studentName, program));
                 break;
             }

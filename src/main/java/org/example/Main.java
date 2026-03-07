@@ -19,9 +19,6 @@ public class Main {
                 "[4] Remove Student\n" +
                 "[5] Exit");
 
-//        System.out.print("Enter: ");
-//        String choice = scanner.nextLine();
-
         Student s1 = new Student("1234", "paul", "IT");
 
         while(true) {
@@ -33,7 +30,6 @@ public class Main {
                 case "3" -> studentRegistration.updateStudent(s1);
                 case "4" -> studentRegistration.removeStudent(s1);
                 case "5" -> System.exit(0);
-
             }
         }
 //        Student s1 = new Student();

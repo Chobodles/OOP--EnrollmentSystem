@@ -25,10 +25,12 @@ Instructor
 ![img_2.png](src/main/resources/images/img_2.png)
 
 *Note:* <br>
-Refactored variable names in StudentRegistration Class
+Refactored variable names in StudentRegistration Class:
+![img_3.png](src/main/resources/images/img_3.png)![img_4.png](src/main/resources/images/img_4.png)
 Added in service folder TuitionFeePayment Class
+![img_5.png](src/main/resources/images/img_5.png)
 Added in main switch case
-
+![img_6.png](src/main/resources/images/img_6.png)
 ---
 
 
