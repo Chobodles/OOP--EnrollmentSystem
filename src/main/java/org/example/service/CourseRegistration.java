@@ -1,15 +1,12 @@
 package org.example.service;
 
 import org.example.model.Course;
-
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CourseRegistration {
     Scanner scanner = new Scanner(System.in);
     private ArrayList<Course> courseList = new ArrayList<>();
-
 
     public void save(Course course){
         courseList.add(course);
