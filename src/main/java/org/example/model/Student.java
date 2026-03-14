@@ -25,4 +25,9 @@ public class Student extends Person {
         System.out.println("Program: " + getProgram());
         System.out.println();
     }
+
+    @Override
+    public void mainTask(){
+        System.out.println("Student Studies");
+    }
 }

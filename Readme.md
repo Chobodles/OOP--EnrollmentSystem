@@ -33,4 +33,15 @@ Added in main switch case
 ![img_6.png](src/main/resources/images/img_6.png)
 ---
 
+**3. Abstraction Activity on Java March 14, 2026** <br>
+**Description and Details** <br>
+
+Applied Abstraction concepts to parent and child classes.
+
+Person
+![img_7.png](src/main/resources/images/img_7.png)
+Student
+![img_8.png](src/main/resources/images/img_8.png)
+Instructor
+![img_9.png](src/main/resources/images/img_9.png)
 
