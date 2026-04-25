@@ -19,4 +19,11 @@ public abstract class Person {
     }
     public abstract void mainTask();
 
+//    @Override
+//    public String toString() {
+//        return "Person{" +
+//                "ID='" + ID + '\'' +
+//                ", name='" + name + '\'' +
+//                '}';
+//    }
 }

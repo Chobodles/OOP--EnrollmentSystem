@@ -30,4 +30,13 @@ public class Student extends Person {
     public void mainTask(){
         System.out.println("Student Studies");
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + getID() + '\'' +
+                "name='" + getName() + '\'' +
+                "program='" + program + '\'' +
+                '}';
+    }
 }
